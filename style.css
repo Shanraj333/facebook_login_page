@@ -149,3 +149,55 @@ input:focus {
     font-size: 0.8rem;
     line-height: 1.5rem;
   }
+  /* responsive */
+  @media(max-width:1500px){
+    form,.sign-up-txt{
+     margin-left: 0rem;
+     align-items: center;
+    }
+  }
+  @media(max-width:1150px){
+    .space,.logo-txt{
+      margin-left: 0px;
+      display: flex;
+      justify-content: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  @media(max-width:900px){
+    .body-container{
+    
+      flex-direction: column;
+      width:100%;
+      height: max-content;
+      justify-content: center;
+      align-items: center;
+    }
+    .space,.logo-txt{
+  
+      padding-left: 0rem;
+      padding-right: 0rem;
+    
+    }
+    .logo,form{
+      margin-top: 2rem;
+    }
+    .right,.left{
+      margin-top: 2rem;
+      width:100%;
+      height: max-content;
+      justify-content: start;
+
+    }
+    .space,.logo-txt{
+      height: max-content;
+    }
+    .logo-txt{
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .sign-up-txt{
+      padding-bottom: 2rem;
+    }
+  }
